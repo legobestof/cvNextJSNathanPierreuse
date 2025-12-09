@@ -88,46 +88,31 @@ export default function Home() {
         <div className="section-content">
           <div className="skills-grid">
             <div className="skill-category">
-              <h3 className="skill-category-title">Langages de programmation</h3>
-              <div className="skill-tags">
-                <span className="skill-tag">Java</span>
-                <span className="skill-tag">Python</span>
-                <span className="skill-tag">JavaScript</span>
-                <span className="skill-tag">TypeScript</span>
-                <span className="skill-tag">SQL</span>
-                <span className="skill-tag">HTML/CSS</span>
-              </div>
+              <h3 className="skill-category-title">Langages</h3>
+              <p className="skill-tags">
+                Java • Python • JavaScript • TypeScript • SQL • HTML/CSS
+              </p>
             </div>
 
             <div className="skill-category">
-              <h3 className="skill-category-title">Technologies & Frameworks</h3>
-              <div className="skill-tags">
-                <span className="skill-tag">React</span>
-                <span className="skill-tag">Node.js</span>
-                <span className="skill-tag">Spring Boot</span>
-                <span className="skill-tag">PostgreSQL</span>
-                <span className="skill-tag">MySQL</span>
-              </div>
+              <h3 className="skill-category-title">Technologies</h3>
+              <p className="skill-tags">
+                React • Node.js • Spring Boot • PostgreSQL • MySQL
+              </p>
             </div>
 
             <div className="skill-category">
               <h3 className="skill-category-title">Outils</h3>
-              <div className="skill-tags">
-                <span className="skill-tag">VS Code</span>
-                <span className="skill-tag">suite JetBrains</span>
-                <span className="skill-tag">Linux</span>
-                <span className="skill-tag">Windows</span>
-                <span className="skill-tag">UML</span>
-                <span className="skill-tag">Git</span>
-              </div>
+              <p className="skill-tags">
+                VS Code • JetBrains • Linux • Windows • Git • UML
+              </p>
             </div>
 
             <div className="skill-category">
               <h3 className="skill-category-title">Langues</h3>
-              <div className="skill-tags">
-                <span className="skill-tag">Français - Langue maternelle</span>
-                <span className="skill-tag">Anglais - Niveau B2+</span>
-              </div>
+              <p className="skill-tags">
+                Français (natif) • Anglais (B2+)
+              </p>
             </div>
           </div>
         </div>
@@ -135,15 +120,9 @@ export default function Home() {
 
       <section className="cv-section">
         <h2 className="section-title">Centres d'intérêt</h2>
-        <div className="section-content">
-          <div className="interests-list">
-            <span className="interest-item">Jeux vidéo</span>
-            <span className="interest-item">Nouvelles technologies</span>
-            <span className="interest-item">Lecture</span>
-            <span className="interest-item">Cinéma</span>
-            <span className="interest-item">Musique</span>
-          </div>
-        </div>
+        <p className="section-content">
+          Jeux vidéo • Nouvelles technologies • Cinéma • Musique
+        </p>
       </section>
 
       <footer className="cv-footer">
