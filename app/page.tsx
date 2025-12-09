@@ -16,7 +16,7 @@ export default function Home() {
         </div>
         <div className="profile-image-wrapper">
           <Image
-            src="./nathan.jpg"
+            src="./nathan_photo.jpg"
             alt="Nathan Pierreuse"
             width={200}
             height={200}
